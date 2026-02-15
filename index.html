@@ -51,15 +51,65 @@
 
         <div id="home" class="relative">
             <img src="jane.jpg" alt="Jane bloglife" class="w-full h-72 sm:h-96 md:h-[500px] object-cover">
-<div class="absolute inset-0 flex flex-col justify-center items-start px-6 sm:px-10 text-white">
-      <h2 class="text-2xl sm:text-3xl md:text-4xl">Jane's</h2>
-      <h1 class="text-3xl sm:text-5xl md:text-6xl font-bold">
-        FASHION BLOG
-      </h1>
-      <button class="mt-4 bg-white text-black px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base hover:opacity-80">SUBSCRIBE</button>
+            <div class="absolute inset-0 flex flex-col justify-center items-start px-6 sm:px-10 text-white">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl">Jane's</h2>
+                <h1 class="text-3xl sm:text-5xl md:text-6xl font-bold">
+                    FASHION BLOG
+                </h1>
+                <button
+                    class="mt-4 bg-white text-black px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base hover:opacity-80">SUBSCRIBE</button>
+            </div>
+
         </div>
 
-    </div>
+        <!-- Main layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 p-4 sm:p-6">
+
+            <!-- Blog Section -->
+            <div class="lg:col-span-2 space-y-6">
+
+                <div class="bg-white p-4 sm:p-6 shadow">
+                    <h3 class="text-xl sm:text-2xl font-bold text-center">
+                        TITLE HEADING
+                    </h3>
+                    <p class="text-center text-gray-500 text-sm mb-4">
+                        May 2, 2016
+                    </p>
+                    <img src="girl_hat.jpg" alt="girl hat" class="w-full mb-4">
+
+                    <p class="text-sm sm:text-base">
+                        <strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry.
+                        Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed
+                        mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus
+                        at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum.
+                        Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                    </p><br>
+
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row justify-between gap-3 mt-4">
+                        <button class="border px-4 py-2 hover:bg-gray-100 w-full sm:w-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="size-6">
+                                <path
+                                    d="M7.493 18.5c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.125c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75A.75.75 0 0 1 15 2a2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23h-.777ZM2.331 10.727a11.969 11.969 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507C2.28 19.482 3.105 20 3.994 20H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227Z" />
+                            </svg>
+                            Like
+                        </button>
+
+                        <button class="bg-black text-white px-4 py-2 w-full sm:w-auto">
+                            Replies
+                        </button>
+                    </div>
+                    <div id="reply1" class="hidden mt-4 border-t pt-4 text-sm">
+                        <p><strong>George:</strong> Great blog post!</p>
+                    </div>
+                </div>
+            </div>
+
 </body>
 
 </html>
